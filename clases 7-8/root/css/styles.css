@@ -1,0 +1,56 @@
+/* IMPORTS */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.fa-user {
+    color: white;
+    font-size: 24px;
+}
+
+/* ESTILO DEL HEADER */ 
+
+
+
+/* ESTILO DEL MAIN */ 
+
+/*
+    EL SELECTOR DE ETIQUETA TRAE TOOODAS LAS ETIQUETAS CON 
+    ESE NOMBRE.
+*/ 
+
+img {
+    width: 100px;
+    height: 50px;
+}
+
+.texto-home {
+    font-family: 'Nunito', sans-serif;    
+}
+
+/* SELECTOR DE HIJO */ 
+
+nav ul {
+    list-style-type: none;
+    background-color: #000000;
+}
+
+li a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+/* SELECTOR DE CLASE */
+
+.background-header {
+    background-image: url('https://wallpaper.dog/large/20395011.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
