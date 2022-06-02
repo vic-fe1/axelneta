@@ -1,18 +1,45 @@
 /* IMPORTS */ 
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .nunito {
     font-family: 'Nunito', sans-serif;
 }
 
-.fa-user {
+.fa-laptop-code {
     color: white;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 /* ESTILO DEL HEADER */ 
+.background-header {
+    background-image: url('https://wallpaper.dog/large/20395011.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+}
 
+img {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* background-color: #000000; */
+    
+}
+
+li {
+    display: inline;
+    background-color: #000;
+}
+
+li a {
+    color:#FFF;
+    text-decoration: none;
+   
+}
 
 
 /* ESTILO DEL MAIN */ 
@@ -22,10 +49,7 @@
     ESE NOMBRE.
 */ 
 
-img {
-    width: 100px;
-    height: 50px;
-}
+
 
 .texto-home {
     font-family: 'Nunito', sans-serif;    
@@ -33,23 +57,10 @@ img {
 
 /* SELECTOR DE HIJO */ 
 
-nav ul {
-    list-style-type: none;
-    background-color: #000000;
-}
 
-li a {
-    color:#FFF;
-    text-decoration: none;
-}
 
 /* SELECTOR DE CLASE */
 
-.background-header {
-    background-image: url('https://wallpaper.dog/large/20395011.jpg');
-    background-size: cover;
-    background-position: center center;
-}
 
 
 
