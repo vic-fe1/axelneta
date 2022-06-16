@@ -1,13 +1,45 @@
+html {
+    font-size: 16px;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     margin: 0;
     height: 15vh;
     /*VIEWPORT HEIGHT = ALTURA DEL VIEWPORT */
-    background-color: rgb(167, 255, 226);
+    background: rgb(220,130,226);
+    background: linear-gradient(77deg, rgba(220,130,226,0.8827906162464986) 17%, rgba(0,212,255,1) 100%);
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+div h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.img-logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
+
+.fa-bars {
+    font-size: 2rem;
+    display: none;
 }
 
 ul {
@@ -17,6 +49,14 @@ ul {
     width: 20vw;
     list-style-type: none;
     /* VIEWPORT WIDTH = ANCHO DEL VIEWPORT */
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5px;
 }
 
 h3 {
@@ -45,9 +85,26 @@ article {
     /* FLEX WRAP - PROPIEDAD */
  }
 
- .menu {
-    display: none;
- }
+
 
  /* RESPONSIVE */ 
-/* EN LAS MEDIA QUERIES */ 
+/* EN LAS MEDIA QUERIES */
+
+/* MIN = A PARTIR DE */
+/* MAX = HASTA */
+@media (min-width: 300px) and (max-width: 899px) {
+    nav {
+        display: none;
+     }
+    
+     .fa-bars {
+        display:block;
+     }
+    
+}
+
+@media (min-width: 900px) and (max-width:1400px) {
+
+}
+
+
