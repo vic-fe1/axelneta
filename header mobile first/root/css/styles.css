@@ -1,0 +1,91 @@
+/* VIEWPORT 1920px */ 
+
+
+ /* ESTILOS GENERALES */ 
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+
+
+img {
+    width: 50px;
+}
+
+nav {
+    display: none;
+ 
+}
+
+
+/* ESTILOS DE LINKS */ 
+
+
+.fa-burger {
+    display: block;
+    font-size: 2rem;
+}
+
+.button {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: rgba(245, 255, 105, 0.735);
+    border: none;
+    transition: all 0.5s linear;
+    display: none;
+}
+
+
+
+
+/* VIEWPORT desktop */ 
+
+@media (min-width: 1000px) {
+
+ .fa-burger {
+    display: none;
+ }
+
+ nav {
+    display: block;
+    width: 30%;
+ }
+
+ .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ .button {
+    display: block;
+ }
+   
+ a {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:hover {
+    transform: translateY(10px);
+    cursor: pointer;
+        box-shadow: 0px 21px 38px -27px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 21px 38px -27px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 21px 38px -27px rgba(0, 0, 0, 0.75);
+
+}
+
+
+}
+
+/* LO QUE QUIERAN */ 
