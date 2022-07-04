@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* VARIABLES */
+/* ESTRUCTURA */
+.border, .contenedor-espacio-bordes {
+  border: 3px solid #000;
+}
+
+.contenedor, .contenedor-espacio-interno, .contenedor-espacio-bordes {
+  display: flex;
+  align-items: center;
+}
+.contenedor-espacio-bordes {
+  justify-content: space-around;
+}
+.contenedor-espacio-interno {
+  justify-content: space-between;
+}
+
+/* COMPONENTES */
+.button, .button-alternativo, .button-secundario, .button-primario {
+  width: 300px;
+  height: 70px;
+  margin: 10px;
+  border: none;
+}
+.button-primario {
+  background-color: #1daf00;
+}
+.button-secundario {
+  background-color: #ceff64;
+}
+.button-alternativo {
+  border: 3px solid #ffff46;
+}
+
+button {
+  border-radius: 10px;
+  transition: all 0.5s linear;
+}
+button:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #000;
+  transform: translateY(-5px);
+}
+
+/* PROBAR SETEAR VARIABLES DE TAMAÑO */
+/* AÑADIR OTRAS PROPIEDADES EN HOVER */
+/* COMPILAR DESDE CERO OTRO ARCHIVO SCSS *//*# sourceMappingURL=main.css.map */
