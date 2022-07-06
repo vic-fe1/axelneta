@@ -1,0 +1,22 @@
+/* SINK */
+
+@keyframes sink {
+  from {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);  
+  }
+}
+
+.sink {
+  &:hover {
+    animation: sink 3s linear;
+    animation-iteration-count: 1;
+  }
+}
